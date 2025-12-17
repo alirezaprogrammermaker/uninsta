@@ -1,0 +1,21 @@
+{
+    "name": "alirezaprogrammermaker/uninsta",
+    "description": "توضیح کوتاه درباره پکیج",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Alireza Programmer",
+            "email": "alirezaprogrammermaker@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlirezaProgrammerMaker\\UnInsta\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
