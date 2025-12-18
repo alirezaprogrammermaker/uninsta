@@ -1,6 +1,12 @@
 {
     "name": "alirezaprogrammermaker/uninsta",
-    "description": "PHP package to interact with Instagram features without the official API",
+    "description": "Unofficial Instagram API Client for PHP",
+    "keywords": [
+        "instagram",
+        "api",
+        "unofficial",
+        "client"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +16,8 @@
         }
     ],
     "require": {
-        "php": ">=8.0"
+        "php": "^7.2.5",
+        "guzzlehttp/guzzle": "7.10.0"
     },
     "autoload": {
         "psr-4": {
